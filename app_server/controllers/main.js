@@ -1,6 +1,7 @@
 /* GET homepage */
 const index = (req, res) => {
-    res.render('index', {title: 'Travlr Getaways'});
+    pageTitle = process.env.npm_package_description + ' - Home';
+    res.render('index', {title: pageTitle});
 };
 module.exports = {
     index
