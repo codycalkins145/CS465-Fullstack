@@ -13,7 +13,6 @@ const mealsRouter = require('./app_server/routes/meals');
 const newsRouter = require('./app_server/routes/news');
 const roomsRouter = require('./app_server/routes/rooms');
 
-
 const hbs = require('hbs');
 
 const app = express();

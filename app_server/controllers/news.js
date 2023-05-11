@@ -1,7 +1,6 @@
-/* GET travel view */
+/* GET news view */
 const news = (req, res) => {
-    pageTitle = process.env.npm_package_description + ' - News';
-    res.render('news', {title: pageTitle});
+    res.render('news', {title: "Travlr Getaways - News"});
 };
 
 module.exports = {

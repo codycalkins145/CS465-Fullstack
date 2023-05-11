@@ -1,7 +1,6 @@
-/* GET travel view */
+/* GET meals view */
 const meals = (req, res) => {
-    pageTitle = process.env.npm_package_description + ' - Meals';
-    res.render('meals', {title: pageTitle});
+    res.render('meals', {title: "Travlr Getaways - Meals"});
 };
 
 module.exports = {
