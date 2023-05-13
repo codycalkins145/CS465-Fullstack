@@ -4,27 +4,11 @@
     </div>
     <div id="navigation">
         <ul>
-            <li id="homeH">
-                <a href="/">Home</a>
+        {{#each nav}}
+            <li>
+                <a href={{this.link}}>{{this.name}}</a>
             </li>
-            <li id="travelH">
-                <a href="/travel">Travel</a>
-            </li>
-            <li id="roomsH">
-                <a href="/rooms">Rooms</a>
-            </li>
-            <li id="mealsH">
-                <a href="/meals">Meals</a>
-            </li>
-            <li id="newsH">
-                <a href="/news">News</a>
-            </li>
-            <li id="aboutH">
-                <a href="/about">About</a>
-            </li>
-            <li id="contactH">
-                <a href="/contact">Contact</a>
-            </li>
+        {{/each}}
         </ul>
     </div>
 </div>

@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Home",
+        "link": "/"
+    }, {
+        "name": "Travel",
+        "link": "/travel"
+    }, {
+        "name": "Rooms",
+        "link": "/rooms"
+    }, {
+        "name": "Meals",
+        "link": "/meals"
+    }, {
+        "name": "News",
+        "link": "/news"
+    }, {
+        "name": "About",
+        "link": "/about"
+    }, {
+        "name": "Contact",
+        "link": "/contact"
+    }
+]
