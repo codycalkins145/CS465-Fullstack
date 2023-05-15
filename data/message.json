@@ -1,0 +1,18 @@
+[
+    {
+        "data1": "<td>Name:</td>",
+        "data2": "<td><input type=\"text\" value=\"\" class=\"txtfield\"></td>"
+    }, {
+        "data1": "<td>Email:</td>",
+        "data2": "<td><input type=\"text\" value=\"\" class=\"txtfield\"></td>"
+    }, {
+        "data1": "<td>Subject:</td>",
+        "data2": "<td><input type=\"text\" value=\"\" class=\"txtfield\"></td>"
+    }, {
+        "data1": "<td class=\"txtarea\">Message:</td>",
+        "data2": "<td><textarea></textarea></td>"
+    }, {
+        "data1": "<td></td>",
+        "data2": "<td><input type=\"submit\" value=\"\" class=\"btn\"></td>"
+    }
+]
