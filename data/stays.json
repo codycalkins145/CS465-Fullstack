@@ -1,21 +1,26 @@
-[
-    {
+{
+    "1": {
+        "code": "FCR01",
         "name": "First Class Room",
         "image": "first-class.jpg",
         "description": "<p> First Class Room cras dui sapien, feugiat vitae tristique ut, lobortis tempor orci. Donec pulvinar sagittis metus ut tristique. Pellentes que habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas idios. </p>",
         "rate": "220",
         "link": "/rooms"
-    }, {
+    },
+    "2": {
+        "code": "DLR01",
         "name": "Deluxe Room",
         "image": "deluxe.jpg",
         "description": "<p> Deluxe Room sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis. </p>",
         "rate": "150",
         "link": "/rooms"
-    }, {
+    },
+    "3": {
+        "code": "SUR01",
         "name": "Suite Room",
         "image": "suite.jpg",
         "description": "<p> Suite Room sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Vestibulum sit amet porttitor odio. Nulla facilisi. Fusce at pretium felis. </p>",
         "rate": "180",
         "link": "/rooms"
     }
-]
+}
