@@ -9,8 +9,7 @@ const tripSchema = new mongoose.Schema({
     resort: {type: String, required: true}, 
     perPerson: {type: String, required: true}, 
     image: {type: String, required: true}, 
-    description: {type: String, required: true},
-    link: {type: String, required: true} 
+    description: {type: String, required: true} 
 }); 
 
 const staySchema = new mongoose.Schema({  
@@ -18,8 +17,7 @@ const staySchema = new mongoose.Schema({
     name: {type: String, required: true, index: true},  
     image: {type: String, required: true}, 
     description: {type: String, required: true},
-    rate: {type: String, required: true},
-    link: {type: String, required: true} 
+    rate: {type: String, required: true}
 });
 
 mongoose.model('trips', tripSchema);
