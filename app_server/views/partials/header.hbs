@@ -5,9 +5,15 @@
     <div id="navigation">
         <ul>
         {{#each nav}}
-            <li>
+            {{#compare ../title this.page}}
+            <li class="selected">
                 <a href={{this.link}}>{{this.name}}</a>
             </li>
+            {{else}}
+                <li>
+                    <a href={{this.link}}>{{this.name}}</a>
+                </li>
+            {{/compare}}       
         {{/each}}
         </ul>
     </div>
