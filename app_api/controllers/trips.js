@@ -6,7 +6,7 @@ const tripsList = async (req, res) => {
     Model
         .find({}) // empty filter for all
         .exec((err, trips) => {
-            if (!trips) {
+            if (trips == "") {
                 return res
                     .status(404)
                     .json({"message": "trips not found"});
@@ -26,8 +26,8 @@ const tripsList = async (req, res) => {
 const tripsFindByCode = async (req, res) => {
     Model
         .find({'code': req.params.tripCode})
-        .exec((err, trips) => {
-            if (!trips) {
+        .exec((err, trip) => {
+            if (trip == "") {
                 return res
                     .status(404)
                     .json({"message": "trip not found"});
@@ -38,7 +38,7 @@ const tripsFindByCode = async (req, res) => {
             } else {
                 return res
                     .status(200)
-                    .json(trips);
+                    .json(trip);
             }
         });
 };

@@ -7,7 +7,7 @@ const apiOptions = {
 const renderTravelList = (req, res, responseBody) => {
     const fs = require('fs');
     const nav = JSON.parse(fs.readFileSync('./data/nav.json', 'utf8'));
-    const message = null;
+    var message = null;
     const pageTitle = 'Travlr Getaways - Travel';
 
     if (!(responseBody instanceof Array)) {
