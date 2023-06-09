@@ -27,7 +27,7 @@ const tripsFindByCode = async (req, res) => {
     Model
         .find({'code': req.params.tripCode})
         .exec((err, trips) => {
-            if (!trips) {
+            if (trips = "") {
                 return res
                     .status(404)
                     .json({"message": "trip not found"});
@@ -82,7 +82,7 @@ const tripsUpdateTrip = async (req, res) => {
             description: req.body.description 
         }, { new: true }) 
         .then(trip => { 
-            if (!trip) { 
+            if (trip = "") { 
                 return res 
                     .status(404) 
                     .send({ 

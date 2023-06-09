@@ -1,24 +1,31 @@
 [
     {
         "name": "Home",
+        "page": "Travlr Getaways - Home",
         "link": "/"
     }, {
         "name": "Travel",
+        "page": "Travlr Getaways - Travel",
         "link": "/travel"
     }, {
         "name": "Rooms",
+        "page": "Travlr Getaways - Rooms",
         "link": "/rooms"
     }, {
         "name": "Meals",
+        "page": "Travlr Getaways - Meals",
         "link": "/meals"
     }, {
         "name": "News",
+        "page": "Travlr Getaways - News",
         "link": "/news"
     }, {
         "name": "About",
+        "page": "Travlr Getaways - About",
         "link": "/about"
     }, {
         "name": "Contact",
+        "page": "Travlr Getaways - Contact",
         "link": "/contact"
     }
 ]
