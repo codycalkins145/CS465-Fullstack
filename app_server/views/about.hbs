@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			{{> header}}
+			<div id="contents">
+				<div class="box">
+					<div>
+						<div class="body">
+							<h1>About</h1>
+			{{#each details}}
+							<h2>{{this.title}}</h2>
+							{{{this.description}}}
+			{{#if first}}
+							<div class="ads">
+								<h2>Our Crews</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a arcu ipsum.
+								</p>
+								<h2>Amenities</h2>
+								<p>
+									Phasellus porta ultrices lorem vel luctus.Cras sodales nulla vitae eros fermentum consequat. Aenean at purus odio.
+								</p>
+							</div>
+			{{/if}}
+			{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{> footer}}
+	</div>
+</body>
+</html>

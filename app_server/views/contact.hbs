@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			{{> header}}
+			<div id="contents">
+				<div class="box">
+					<div>
+						<div id="contact" class="body">
+							<h1>Contact</h1>
+							<form action="/" method="post">
+								<table>
+									<tbody>
+			{{#each message}}
+										<tr>
+											{{{this.data1}}}
+											{{{this.data2}}}
+										</tr>
+			{{/each}}
+									</tbody>
+								</table>
+							</form>
+							<h2>Travlr Getaways</h2>
+			{{#each info}}
+							<p>
+								<span>{{this.name}}</span> {{this.description}}
+							</p>
+			{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{> footer}}
+	</div>
+</body>
+</html>
