@@ -45,7 +45,6 @@ const tripsFindByCode = async (req, res) => {
 };
 
 const tripsAddTrip = async (req, res) => {
-    console.log('tripsAddTrip invoked with:\n' + req.body);
     getUser(req, res, 
         (req, res) => {
     Trip
